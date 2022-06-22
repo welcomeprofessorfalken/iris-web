@@ -326,6 +326,7 @@ def create_safe_languages():
     create_safe(db.session, Languages, name="french", code="FR")
     create_safe(db.session, Languages, name="english", code="EN")
     create_safe(db.session, Languages, name="german", code="DE")
+    create_safe(db.session, Languages, name="spanish", code="ES")
 
 
 def create_safe_events_cats():
